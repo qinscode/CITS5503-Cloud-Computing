@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of contents
 
 * [Introduction](README.md)
 * [Readings](readings.md)
@@ -18,13 +18,13 @@
 
 ## Source Code
 
-* [cloudstorage.py](Labs/src/cloudstorage.md)
-* [fileencrypt.py](Labs/src/fileencrypt.md)
-* [aes.py](Labs/src/aes.md)
-* [LabAI.ipynb](Labs/src/LabAI.md)
+* [cloudstorage.py](source-code/cloudstorage.py.md)
+* [fileencrypt.py](source-code/fileencrypt.py.md)
+* [aes.py](source-code/aes.py.md)
+* [LabAI.ipynb](source-code/labai.ipynb.md)
 
 ## Submission Templates
 
 * [Labs 1-5 Template](Labs/CITS5503_Template_Labs1-5.md)
 * [Labs 6-9 Template](Labs/CITS5503_Template_Labs6-9.md)
-* [Marking Guide](Labs/labs_marking_AWS_2025.txt)
+* [Marking Guide](submission-templates/marking-guide.md)
