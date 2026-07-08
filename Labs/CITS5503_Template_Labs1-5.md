@@ -7,6 +7,8 @@
 
 </div>
 
+[Download this template (Markdown)](https://raw.githubusercontent.com/qinscode/CITS5503-Cloud-Computing/main/Labs/CITS5503_Template_Labs1-5.md)
+
 # Lab 1
 
 ## AWS Account and Log in

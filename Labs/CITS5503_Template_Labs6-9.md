@@ -7,6 +7,8 @@
 
 </div>
 
+[Download this template (Markdown)](https://raw.githubusercontent.com/qinscode/CITS5503-Cloud-Computing/main/Labs/CITS5503_Template_Labs6-9.md)
+
 # Lab 6
 
 ## Set up an EC2 instance

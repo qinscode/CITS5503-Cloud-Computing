@@ -18,10 +18,10 @@
 
 ## Source Code
 
-* [cloudstorage.py](Labs/src/cloudstorage.py)
-* [fileencrypt.py](Labs/src/fileencrypt.py)
-* [aes.py](Labs/src/aes.py)
-* [LabAI.ipynb](Labs/src/LabAI.ipynb)
+* [cloudstorage.py](Labs/src/cloudstorage.md)
+* [fileencrypt.py](Labs/src/fileencrypt.md)
+* [aes.py](Labs/src/aes.md)
+* [LabAI.ipynb](Labs/src/LabAI.md)
 
 ## Submission Templates
 
