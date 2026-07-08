@@ -1,4 +1,4 @@
-﻿<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
 
   <h2>Labs 1-5</h2>
   
@@ -6,8 +6,6 @@
   <p>Student Name: [First and Surname]</p>
 
 </div>
-
-[Download this template (Markdown)](https://raw.githubusercontent.com/qinscode/CITS5503-Cloud-Computing/main/Labs/downloads/CITS5503_Template_Labs1-5.md)
 
 # Lab 1
 
