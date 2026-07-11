@@ -208,14 +208,13 @@ pip3 install boto3
 aws ec2 describe-regions --output table
 ```
 
-### \[2] Test the python environment
+### \[2] Test the python environmen
 
 ```
-python3
->>> import boto3
->>> ec2 = boto3.client('ec2')
->>> response = ec2.describe_regions()
->>> print(response)
+import boto3
+ec2 = boto3.client('ec2')
+response = ec2.describe_regions()
+print(response)
 ```
 
 This will create an un-tabulated response.
