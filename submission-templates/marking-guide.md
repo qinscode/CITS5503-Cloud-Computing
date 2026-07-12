@@ -1,3 +1,0 @@
-# Marking Guide
-
-[Marking Guide (Google Doc)](https://docs.google.com/document/d/1-mhkO6kiAdkRIGsDc7srHTd4K4fytzosLUvx17Mgh70/edit?usp=sharing)

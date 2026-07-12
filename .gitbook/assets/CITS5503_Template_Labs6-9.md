@@ -1,75 +1,89 @@
 ﻿<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
 
-  <h2>Labs 1-5</h2>
+  <h2>Labs 6-9</h2>
   
   <p>Student ID: [Student ID]</p>
   <p>Student Name: [First and Surname]</p>
 
 </div>
 
-[Download this template (Markdown)](https://raw.githubusercontent.com/qinscode/CITS5503-Cloud-Computing/main/Labs/downloads/CITS5503_Template_Labs1-5.md)
+# Lab 6
 
-# Lab 1
+## Set up an EC2 instance
 
-## AWS Account and Log in
-
-### [1] Log into an IAM user account created for you on AWS.
+### [1] Create an EC2 micro instance with Ubuntu and SSH into it. 
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-### [2] Search and open Identity Access Management
+### [2] Install the Python 3 virtual environment package. 
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-## Set up recent Unix-like OSes
+### [3] Access a directory 
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-## Install Linux packages
-
-### [1] Install Python
+### [4] Set up a virtual environment
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-### [2] Install awscli
+### [5] Activate the virtual environment
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-### [3] Configure AWS
+### [6] Install nginx
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-### [4] Install boto3
+### [7] Configure nginx
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-## Test the installed environment
-
-### [1] Test the AWS environment
+### [8] Restart nginx
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-### [2] Test the Python environment
+### [9] Access your EC2 instance
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
-### [3] Write a Python script
+## Set up Django inside the created EC2 instance
+
+### [1] Edit the following files (create them if not exist)
+
+[Refer to the marking rubrics for sufficient step-by-step description.]
+
+### [2] Run the web server again
+
+[Refer to the marking rubrics for sufficient step-by-step description.]
+
+### [3] Access the EC2 instance
+
+[Refer to the marking rubrics for sufficient step-by-step description.]
+
+## Set up an ALB
+
+### [1] Create an application load balancer
+
+[Refer to the marking rubrics for sufficient step-by-step description.]
+
+### [2] Health check
+
+[Refer to the marking rubrics for sufficient step-by-step description.]
+
+### [3] Access
 
 [Refer to the marking rubrics for sufficient step-by-step description.]
 
 <div style="page-break-after: always;"></div>
 
-# Lab 2
+# Lab 7
 
 <div style="page-break-after: always;"></div>
 
-# Lab 3
+# Lab 8
 
 <div style="page-break-after: always;"></div>
 
-# Lab 4
-
-<div style="page-break-after: always;"></div>
-
-# Lab 5
+# Lab 9
 

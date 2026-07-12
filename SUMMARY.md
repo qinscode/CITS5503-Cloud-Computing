@@ -16,15 +16,7 @@
 * [Lab 8 - Container & AI](Labs/Lab8ContainerAI.md)
 * [Lab 9 - Rekognition](Labs/Lab9Rekognition.md)
 
-## Source Code
-
-* [cloudstorage.py](source-code/cloudstorage.py.md)
-* [fileencrypt.py](source-code/fileencrypt.py.md)
-* [aes.py](source-code/aes.py.md)
-* [LabAI.ipynb](source-code/labai.ipynb.md)
-
 ## Submission Templates
 
-* [Labs 1-5 Template](Labs/CITS5503_Template_Labs1-5.md)
-* [Labs 6-9 Template](Labs/CITS5503_Template_Labs6-9.md)
-* [Marking Guide](submission-templates/marking-guide.md)
+* [Lab Report Templates](submission-templates/lab-report-templates.md)
+* [Lab Reports Marking Guide](https://docs.google.com/document/d/1-mhkO6kiAdkRIGsDc7srHTd4K4fytzosLUvx17Mgh70/edit?usp=sharing)
