@@ -156,39 +156,36 @@ python3 manage.py runserver 8000
 
 ### \[3] Access the EC2 instance
 
-Access the URL: http://\<ip address of your EC2 instance>/polls/, and output what you've got.
+Access the URL: `http://<ip address of your EC2 instance>/polls/`, and output what you've got.
 
-**NOTE**: remember to put the /polls/ on the end and you may need to restart nginx if it does not work.
+**NOTE**: remember to put the `/polls/` on the end, and you may need to restart `nginx` if it does not work.
 
 ## Set up an ALB
 
 ### \[1] Create an application load balancer
 
-Specify the region subnet where your EC2 instance resides.
-
-Create a listener with a default rule Protocol: HTTP and Port 80 forwarding.
-
-Choose the security group, allowing HTTP traffic.
-
-Add your instance as a registered target.
+* Specify the region and subnet where your EC2 instance resides.
+* Create a listener with a default rule: Protocol: `HTTP` and Port `80` forwarding.
+* Choose the security group, allowing `HTTP` traffic.
+* Add your instance as a registered target.
 
 ### \[2] Health check
 
-For the target group, specify /polls/ for a path for the health check.
+For the target group, specify `/polls/`as the path for the health check.
 
-Confirm the health check fetch the /polls/ page every 30 seconds.
+Confirm the health check fetch the `/polls/` page every 30 seconds.
 
 ### \[3] Access
 
-Access the URL: http://\<load balancer dns name>/polls/, and output what you've got.
+Access the URL: `http://<load balancer dns name>/polls/`, and output what you've got.
 
 ## Web interface for CloudStorage application
 
 You need to create an AWS DynamoDB table by copying it from the local DynamoDB used in Lab 3, as well as provide a copy of your AWS credentials. If you did not save the data from Lab 3, you will need to repeat some steps to retrieve the files from the S3 bucket and use them as attributes to be stored in the AWS DynamoDB table. You can run your Django application locally.
 
-In views.py, add boto3 code to scan the AWS DynamoDB table. Display the results in the calling page.
+In `views.py`, add `boto3` code to scan the AWS DynamoDB table. Display the results in the calling page.
 
-In Django, you can use a template to properly format a web page using supplied variables – you can do that to make the table look nice. To use a template, you need to create a folder called templates under polls and add to the TEMPLATES section of lab/settings.py
+In Django, you can use a template to properly format a web page using supplied variables – you can do that to make the table look nice. To use a template, you need to create a folder called templates under polls and add it to the TEMPLATES section of `lab/settings.py` .
 
 ```
 TEMPLATES = [
@@ -199,7 +196,7 @@ TEMPLATES = [
         ],
 ```
 
-In the templates directory, add a file files.html with the following contents:
+In the templates directory, add a file `files.html` with the following contents:
 
 ```
 <html>
@@ -220,7 +217,7 @@ In the templates directory, add a file files.html with the following contents:
 </html>
 ```
 
-Finally in views.py, you can pass variables from your DynamoDB call and render the template in the following way:
+Finally, in `views.py`, you can pass variables from your DynamoDB call and render the template in the following way:
 
 ```
 from django.shortcuts import render
