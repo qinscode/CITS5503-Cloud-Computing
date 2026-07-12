@@ -133,7 +133,14 @@ Then, you need to get the attributes above for each file of the S3 bucket and th
 1. The table should have 2 items. One item corresponds to one file in the bucket and consists of the attributes above and their values.
 2. The value for `owner` is `displayname`, but `displayname` is only supported in the following AWS Regions:
 
-<table data-search="false"><thead><tr><th>Region Name</th></tr></thead><tbody><tr><td>US East (N. Virginia)</td></tr><tr><td>US West (N. California)</td></tr><tr><td>US West (Oregon)</td></tr><tr><td>Asia Pacific (Singapore)</td></tr><tr><td>Asia Pacific (Sydney)</td></tr><tr><td>Asia Pacific (Tokyo)</td></tr><tr><td>Europe (Ireland)</td></tr><tr><td>South America (São Paulo)</td></tr></tbody></table>
+* US East (N. Virginia)
+* US West (N. California)
+* US West (Oregon)
+* Asia Pacific (Singapore)
+* Asia Pacific (Sydney)
+* Asia Pacific (Tokyo)
+* Europe (Ireland)
+* South America (São Paulo)
 
 If `displayname` is not supported in your assigned region, use `ID` for the `owner` attribute instead (the same as the value for the `userId` attribute).
 
