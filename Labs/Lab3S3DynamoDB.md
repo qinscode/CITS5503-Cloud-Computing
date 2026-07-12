@@ -32,16 +32,19 @@ The aim of this lab is to write a program that will:
 
 ### \[1] Preparation
 
-Download the python code `cloudstorage.py` from the directory of [src](https://github.com/zhangzhics/CITS5503_Sem2/blob/master/Labs/src/cloudstorage.py).\
-Create a directory `rootdir`\
-Create a file in `rootdir` called `rootfile.txt` and write some content in it `1\n2\n3\n4\n5\n`\
-Create a second directory in rootdir called `subdir`, and in the `subdir` directory create another file `subfile.txt` with the same content as `rootfile.txt`.
+* Download the Python code `cloudstorage.py` .
+
+{% file src="../.gitbook/assets/cloudstorage.py" %}
+
+* Create a directory `rootdir`
+* Create a file in `rootdir` called `rootfile.txt` and write some content in it `1\n2\n3\n4\n5\n`
+* Create a second directory in `rootdir` called `subdir`, and in the `subdir` directory, create another file `subfile.txt` with the **same** content as `rootfile.txt`.
 
 ### \[2] Save to S3 by updating `cloudstorage.py`
 
 Modify the downloaded Python script, `cloudstorage.py`, to create an S3 bucket named `<student ID>-cloudstorage`.
 
-When the program traverses the directory starting at the root directory `rootdir`, upload each file onto the S3 bucket. An easy way to upload files is to use the command below:
+When the program traverses the directory starting at the root directory `rootdir`, upload each file to the S3 bucket. An easy way to upload files is to use the command below:
 
 ```
 s3.upload_file()
@@ -49,8 +52,8 @@ s3.upload_file()
 
 **NOTE**:
 
-* Make sure your S3 bucket has the same file structure as shown in `[1] Preparation`.
-* For historical reasons, buckets in `us-east-1` are created without specifying a LocationConstraint. All other regions require the LocationConstraint to be explicitly specified. If your region is `us-east-1` then you simply run the command without the `--location` constraint because by default bucket is created in the `us-east-1` region.
+* Make sure your S3 bucket has the same file structure as shown in **\[1] Preparation**.
+* For historical reasons, buckets in `us-east-1` are created without specifying a LocationConstraint. All other regions require the LocationConstraint to be explicitly specified. If your region is `us-east-1` then you simply run the command without the `--location` constraint because by default the bucket is created in the `us-east-1` region.
 
 ### \[3] Restore from S3
 
@@ -100,15 +103,15 @@ After the extraction, run the command below
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 ```
 
-Alternatively, you can use docker:
+Alternatively, you can use Docker:
 
 ```
 docker run -p 8000:8000 amazon/dynamodb-local -jar DynamoDBLocal.jar -inMemory -sharedDb
 ```
 
-**Note**: Do not close the current window, open a new window to run the following Python script.
+**Note**: Do not close the current window; open a new window to run the following Python script.
 
-Write a Python script to create a table called `CloudFiles` on your local DynamoDB and the attributes for the table are:
+Write a Python script to create a table called `CloudFiles` on your local DynamoDB, and the attributes for the table are:
 
 ```
         CloudFiles = {
@@ -130,16 +133,7 @@ Then, you need to get the attributes above for each file of the S3 bucket and th
 1. The table should have 2 items. One item corresponds to one file in the bucket and consists of the attributes above and their values.
 2. The value for `owner` is `displayname`, but `displayname` is only supported in the following AWS Regions:
 
-| Region Name               |
-| ------------------------- |
-| US East (N. Virginia)     |
-| US West (N. California)   |
-| US West (Oregon)          |
-| Asia Pacific (Singapore)  |
-| Asia Pacific (Sydney)     |
-| Asia Pacific (Tokyo)      |
-| Europe (Ireland)          |
-| South America (São Paulo) |
+<table data-search="false"><thead><tr><th>Region Name</th></tr></thead><tbody><tr><td>US East (N. Virginia)</td></tr><tr><td>US West (N. California)</td></tr><tr><td>US West (Oregon)</td></tr><tr><td>Asia Pacific (Singapore)</td></tr><tr><td>Asia Pacific (Sydney)</td></tr><tr><td>Asia Pacific (Tokyo)</td></tr><tr><td>Europe (Ireland)</td></tr><tr><td>South America (São Paulo)</td></tr></tbody></table>
 
 If `displayname` is not supported in your assigned region, use `ID` for the `owner` attribute instead (the same as the value for the `userId` attribute).
 
@@ -151,7 +145,7 @@ Use the AWS CLI command to scan the created DynamoDB table, and output what you'
 
 Use the AWS CLI command to delete the table.
 
-**NOTE**: Delete the created S3 bucket(s) from AWS console after the lab is done.
+**NOTE**: Delete the created S3 bucket(s) from the AWS console after the lab is done.
 
 ## Lab Assessment
 
