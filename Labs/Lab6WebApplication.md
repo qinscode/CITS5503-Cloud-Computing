@@ -1,9 +1,5 @@
 # Lab 6 - Web Application
 
-Version: 1.0 Date: 12/04/2018 Author: David Glance
-
-Date: 24/07/2024 Updated by Zhi Zhang
-
 ## Learning Objectives
 
 1. Create a web app using Django

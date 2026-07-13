@@ -1,9 +1,5 @@
 # Lab 4 - KMS & Encryption
 
-Version: 1.2 Date: 23/08/2018 Author: David Glance
-
-Date: 25/07/2024 Updated by Zhi Zhang
-
 ## Learning Objectives
 
 1. IAM policies applied to S3

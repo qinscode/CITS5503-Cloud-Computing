@@ -1,9 +1,5 @@
 # Lab 2 - EC2 & Docker
 
-Version: 1.0 Date: 10/04/2018 Author: David Glance
-
-Date: 21/07/2025 Updated by Zhi Zhang, Jichunyang Li, Fudong Qin
-
 ## Learning Objectives
 
 1. Create an EC2 instance, security group and ssh keys using awscli and python/boto

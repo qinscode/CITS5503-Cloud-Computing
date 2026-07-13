@@ -1,9 +1,5 @@
 # Lab 7 - DevOps
 
-Version: 1.2 Date: 15/9/2018 Author: David Glance
-
-Date: 28/07/2024 Updated by Zhi Zhang
-
 ## Learning Objectives
 
 1. Install and configure `Fabric`

@@ -1,7 +1,5 @@
 # Lab 1 - Introduction & Setup
 
-Date: 21/07/2025 Polished by Zhi Zhang, Jichunyang Li, Fudong Qin
-
 ## Learning Objectives
 
 1. Register for an AWS account and explore the user interface

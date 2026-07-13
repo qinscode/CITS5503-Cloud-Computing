@@ -1,9 +1,5 @@
 # Lab 5 - Networking
 
-Version: 1.1 Date: 28/08/2018 Author: David Glance
-
-Date: 21/07/2023 Updated by Zhi Zhang
-
 ## Learning Objectives
 
 1. Networking and NAT

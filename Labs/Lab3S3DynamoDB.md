@@ -1,9 +1,5 @@
 # Lab 3 - S3 & DynamoDB
 
-Version: 1.0 Date: 12/04/2018 Author: David Glance
-
-Date: 24/07/2024 Updated by Zhi Zhang
-
 ## Learning Objectives
 
 1. Learn how to create and configure S3 buckets and read and write objects to them

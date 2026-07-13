@@ -1,9 +1,5 @@
 # Lab 9 - Rekognition
 
-Version: 1.0 Date: 4/10/2021 Author: Camilo Pestana
-
-Date: 29/07/2024 Updated by Zhi Zhang
-
 ## Learning Objectives
 
 1. Learn more about AI and Machine Learning services available on AWS.
